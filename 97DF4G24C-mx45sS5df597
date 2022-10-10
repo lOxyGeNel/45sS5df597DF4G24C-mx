@@ -606,6 +606,7 @@ WoWFocus:=ScreenShot
 
 If (WoWSource<WoWFocus)
     SendDis()
+    ScreenSource()
 }
 IDUser(){
     global
