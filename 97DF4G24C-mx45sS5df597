@@ -1,3 +1,4 @@
+;test
 #SingleInstance force
 SetBatchLines -1
 SendMode Input
