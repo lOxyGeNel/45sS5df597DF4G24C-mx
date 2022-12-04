@@ -202,7 +202,7 @@ WinSet, Transcolor , 00FF00
 Gui, MenuParametre:show,hide x144 y47 h180 w200
 GuiControl, MenuParametre:ChooseString, SelectAudio, %SelectAudio%
 Gui, Submit, NoHide
-CtlColors.Attach(DDL, "silver","purple")
+
 }
 MenuVersion(){
   global
@@ -511,8 +511,9 @@ Loop
 	if (meter>=0.20)
 	{
     ToolTip
-    sleep 1000
+    sleep 500
 	send,{click}
+	sleep 250
 	NombreTentative()
     break
 }
